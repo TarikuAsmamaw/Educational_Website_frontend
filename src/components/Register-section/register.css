@@ -1,0 +1,128 @@
+/* Home Button */
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  height: auto; /* Prevent full height */
+  line-height: normal; /* Avoid stretching */
+  margin: 20px 0;
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+  width: auto; /* Ensures button doesn’t stretch across the container */
+}
+
+.home-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Main Container */
+.register-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* Allows the sections to wrap on smaller screens */
+  gap: 20px; /* Add some gap between the sections */
+}
+
+/* Minimum Requirements */
+.minimum-requirements {
+  flex: 1;
+  background-color: #f7f9fc;
+  font-size: 20px;
+  /*font-style: italic;*/
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.minimum-requirements ul {
+  line-height: 1.6;
+}
+
+/* Registration Form */
+.registration-form {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.registration-form input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+/* Success Message */
+.success {
+  color: green;
+  margin-top: 20px;
+}
+
+/* Container for the Back to Home button */
+.home-button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-bottom: 20px; /* Add space below the button */
+  width: 100%; /* Ensure it doesn't stretch vertically */
+  display: block;
+}
+
+/* Optional mobile styling */
+@media (max-width: 768px) {
+  .register-container {
+    flex-direction: column; /* Stack the sections vertically on smaller screens */
+    gap: 10px; /* Reduce gap between sections */
+  }
+  
+  .registration-form,
+  .minimum-requirements {
+    flex: 1 100%; /* Make the sections take full width on small screens */
+    margin-right: 0;
+  }
+
+  /* Adjust padding and margins for smaller screens */
+  .minimum-requirements {
+    padding: 15px;
+  }
+  .registration-form {
+    padding: 15px;
+  }
+}

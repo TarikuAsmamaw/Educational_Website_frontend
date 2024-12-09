@@ -1,0 +1,61 @@
+/* Styling for the Company Section */
+section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  h3 i {
+    font-size: 1.5rem;
+    color: #007bff; /* Adjust the color of the icons */
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  h2 i {
+    font-size: 1.75rem;
+    color: #0a66c2; /* Adjust the color of the Google icon */
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .gap-1 {
+    gap: 0.25rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 1rem;
+    }
+  
+    h2 {
+      font-size: 1.25rem;
+    }
+  
+    i {
+      font-size: 1.25rem;
+    }
+  }
+  

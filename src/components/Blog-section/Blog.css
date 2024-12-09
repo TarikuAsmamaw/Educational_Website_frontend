@@ -1,0 +1,23 @@
+.back-home-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+  }
+  
+  .back-home-button {
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-home-button:hover {
+    background-color: #005f99;
+    color: #fff;
+  }
+  
