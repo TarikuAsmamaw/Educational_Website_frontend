@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Educational_Website_frontend
+This is the frontend of the Educational Website, designed to provide an intuitive, user-friendly interface for students and instructors. Built using React, this frontend interacts seamlessly with the backend to display courses, manage user profiles, and facilitate learning activities.
+>>>>>>> f779222c2c9e9b32ab2c64c30a55afe2c30e1caa
