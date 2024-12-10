@@ -27,3 +27,13 @@ Thumbs.db
 .pnp/
 .pnp.js
 "package-lock.json" 
+# Ignore certificate files
+*.crt
+*.key
+*.pem
+
+# Ignore environment files
+.env
+
+# Ignore specific files
+secrets.txt
